@@ -1,0 +1,53 @@
+{
+  "model": "YOLO-CCT",
+  "evaluation": {
+    "mAP": 0.2188115564521989,
+    "mAP_percentage": 21.88115564521989,
+    "fps": 5.289094521197871,
+    "class_aps": {
+      "aeroplane": 0.5432370554914542,
+      "bicycle": 0.0,
+      "bird": 0.33741918430117124,
+      "boat": 0.11514662546449858,
+      "bottle": 0.005111268786843887,
+      "bus": 0.0,
+      "car": 0.3016649231662785,
+      "cat": 0.5551091888807136,
+      "chair": 0.3168964779994205,
+      "cow": 0.0,
+      "diningtable": 0.5816504123006127,
+      "dog": 0.0,
+      "horse": 0.26533333333333337,
+      "motorbike": 0.009320905459387484,
+      "person": 0.5274924322875415,
+      "pottedplant": 0,
+      "sheep": 0.0,
+      "sofa": 0.6076130951431344,
+      "train": 0.07022900763358779,
+      "tvmonitor": 0.14000721879600053
+    }
+  },
+  "model_info": {
+    "total_parameters": 1367883,
+    "backbone_parameters": 1029376,
+    "head_parameters": 338507,
+    "model_size_mb": 5.218059539794922,
+    "grid_size": 56,
+    "num_classes": 20,
+    "num_anchors": 3
+  },
+  "comparison": {
+    "baseline_yolo": {
+      "parameters": "11.5M",
+      "model_size": "~46 MB",
+      "mAP": "~57.9%",
+      "fps": "~10-15"
+    },
+    "yolo_cct": {
+      "parameters": "1.37M",
+      "model_size": "5.22 MB",
+      "mAP": "21.88%",
+      "fps": "5.29"
+    }
+  }
+}

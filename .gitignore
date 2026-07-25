@@ -14,9 +14,6 @@ env/
 .DS_Store
 Thumbs.db
 
-# Training artifacts and checkpoints
-outputs/
-
 # Dataset files (keep acquisition instructions in README instead)
 voc2012_dataset/
 
