@@ -32,9 +32,9 @@ flowchart LR
 
 The repository includes output visualizations in `outputs/test_results/`.
 
-![Detection Sample 1](outputs/test_results/test_1_2010_001835.jpg)
-![Detection Sample 2](outputs/test_results/test_2_2008_001193.jpg)
-![Detection Sample 3](outputs/test_results/test_3_2010_002658.jpg)
+![Detection Sample 1](https://raw.githubusercontent.com/kalina0817/yolo_cct/main/outputs/test_results/test_1_2010_001835.jpg)
+![Detection Sample 2](https://raw.githubusercontent.com/kalina0817/yolo_cct/main/outputs/test_results/test_2_2008_001193.jpg)
+![Detection Sample 3](https://raw.githubusercontent.com/kalina0817/yolo_cct/main/outputs/test_results/test_3_2010_002658.jpg)
 
 ## Project Structure
 
