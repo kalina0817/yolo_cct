@@ -13,29 +13,6 @@ This project successfully modifies the YOLO object detection model by replacing 
 - ✅ **Loss Reduction**: 84.6% (28.96 → 4.47)
 - ✅ **Detections**: Successful multi-class object detection
 
-## Architecture Diagram
-
-```mermaid
-flowchart LR
-	A[Input Image 224x224x3] --> B[ConvTokenizer\n7x7 stride 2 + 3x3 stride 2]
-	B --> C[Patch Embeddings\n128 dim]
-	C --> D[Transformer Encoder Layer 1\n4 heads]
-	D --> E[Transformer Encoder Layer 2\n4 heads]
-	E --> F[Feature Map 56x56x128]
-	F --> G[YOLO Detection Head]
-	G --> H[Bounding Boxes]
-	G --> I[Objectness Scores]
-	G --> J[Class Probabilities\n20 VOC classes]
-```
-
-## Detection Result Samples
-
-The repository includes output visualizations in `outputs/test_results/`.
-
-![Detection Sample 1](https://raw.githubusercontent.com/kalina0817/yolo_cct/main/outputs/test_results/test_1_2010_001835.jpg)
-![Detection Sample 2](https://raw.githubusercontent.com/kalina0817/yolo_cct/main/outputs/test_results/test_2_2008_001193.jpg)
-![Detection Sample 3](https://raw.githubusercontent.com/kalina0817/yolo_cct/main/outputs/test_results/test_3_2010_002658.jpg)
-
 ## Project Structure
 
 ```
@@ -198,6 +175,6 @@ After training:
 ✅ Test visualizations (`outputs/test_results/`)  
 ✅ Comprehensive report (`PROJECT_REPORT.md`)
 
-**Author**: Kalkidan Debassu
+**Author**: Kalin  
 **Date**: December 10, 2025  
 **Objective**: ✅ Evaluate transformer-based backbone for YOLO → **Successfully Demonstrated**

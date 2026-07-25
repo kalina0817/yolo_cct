@@ -1,22 +1,25 @@
-# Python caches and virtual environments
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+.Python
 .venv/
 venv/
 env/
+ENV/
 
-# Local editor and OS files
-.vscode/
-.idea/
-*.swp
 .DS_Store
 Thumbs.db
 
-# Dataset files (keep acquisition instructions in README instead)
+.vscode/
+.idea/
+
+outputs/
 voc2012_dataset/
 
-# Logs and temporary outputs
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
 *.log
-*.tmp
